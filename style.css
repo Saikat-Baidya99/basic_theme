@@ -1,0 +1,117 @@
+/*
+Theme Name: Basictheme
+Theme URI: http://tech-it.com
+Author: Saikat
+Author URI: https://home-it.com
+Version: 2.2
+Description: Simple Wordpress Theme
+Tags: Blog, Simple Website, Business Website
+*/
+
+*
+{ margin: 0;
+  padding: 0;} 
+body
+{ font: normal .78em arial, sans-serif;
+  background: #444;
+  color: #555;}
+#header{
+  position:relative;
+  width:fit-content;
+  height:257px;
+  margin-left: 225px;
+  margin-right: 20px;
+  background-color: #536fbc;}
+p
+{ padding: 0 0 16px 0;
+  line-height: 1.7em;}
+h1, h2 h3
+{ font: normal 175% 'century gothic', arial, sans-serif;
+  color: #111;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;}
+h2
+{ font: normal 175% 'century gothic', arial, sans-serif;
+  color: #444;}
+a, a:hover
+{ outline: none;
+  color: #111;
+  text-decoration: underline;}
+
+ul li
+{ list-style-type: circle;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 5px;}
+#main, #header, #logo, #menubar, #site_content, #footer
+{ margin-left: auto; 
+  margin-right: auto;}
+#logo
+{ width: 890px;
+  position: relative;
+  height:200px;
+ }
+#logo #logo_text 
+{ position: absolute; 
+  top:0px;
+  left: 30px;}
+#logo h1, #logo h2
+{ font: normal 300% 'century gothic', arial, sans-serif;
+  border-bottom: 0;
+  text-transform: none;
+  margin: 0;}
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover 
+{ padding: 10px 0 0 0;
+  color: #f2f2f2;
+  letter-spacing: 0.1em;
+  text-decoration: none;}
+#logo_text h1 a .logo_colour
+{ color: #555;}
+#logo_text h2
+{ font-size: 130%;
+  padding:0;
+  color: #444;}
+ul#menu
+{ float: right;
+  margin: 0;}
+ul#menu li
+{ float: left;
+  margin: 5px 0 0 0;
+  padding: 0 0 0 6px;
+  list-style: none;}
+ul#menu li a
+{ letter-spacing: 0em;
+  font: normal 105% arial, sans-serif;
+  text-transform: uppercase;
+  display: block; 
+  float: left; 
+  height: 10px;
+  text-decoration: none; 
+  padding: 9px 22px 5px 16px;
+  text-align: center;
+  color: #FFF;
+  border: 0;} 
+ul#menu li.selected a
+{ height: 25px;
+  color: #111;
+  padding: 7px 22px 5px 16px;}
+ul#menu li.selected
+{ margin: 7px 0 0 0;
+  background: #F8F8F8;}
+ul#menu li a:hover
+{ color: #888;}
+#site_content
+{ width: 890px;
+  overflow: hidden;
+  background: #F8F8F8;} 
+.sidebar
+{ float: right;
+  width: 198px;
+  padding: 20px 25px 15px 15px;}
+#content
+{ text-align: left;
+  width: 600px;
+  float: left;
+  padding: 20px 0 15px 30px;}
+
+
+
